@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faixa Etária</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Esse programa mostra a quantidade de pessoas em cada faixa etária!</h1>
+        <hr>
+    </header>
+    <form id="faixaEtaria">
+        <label for="1">Idade da pessoa numero 1:</label>
+        <input type="number" name="1" id="1"><br><br>
+        <label for="2">Idade da pessoa numero 2:</label>
+        <input type="number" name="2" id="2"><br><br>
+        <label for="3">Idade da pessoa numero 3:</label>
+        <input type="number" name="3" id="3"><br><br>
+        <label for="4">Idade da pessoa numero 4:</label>
+        <input type="number" name="4" id="4"><br><br>
+        <label for="5">Idade da pessoa numero 5:</label>
+        <input type="number" name="5" id="5"><br><br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="reset" value="Limpar" id="limpar"><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Faixa Etária</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Até 15 anos</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>De 16 a 40 anos</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Acima de 40 anos</td>
+                </tr> 
+            </tbody> 
+        </table>     
+        <p id="resultado"></p>
+    </form>
+    <script src="../avaliacao1508/script/script.js"></script>
+</body>
+</html>
